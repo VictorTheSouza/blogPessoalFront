@@ -1,0 +1,9 @@
+#img-bg{
+    background-image: url('https://www.tudodesenhos.com/uploads/images/11800/bonecos-abrindo-porta.jpg');
+
+    min-height: 695px;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
