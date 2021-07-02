@@ -7,8 +7,11 @@
                     <h5>Expresse aqui os seus pensamentos</h5>
                 </div>
             </div>
-                    <!--<button class="btn btn-light mr-2" data-toggle="modal" data-target="#novaPostagem">Nova
-                        Postagem</button>!-->
+
+            <div class="row d-flex justify-content-center mt-3 mb-5">
+                <div class="col-md-6">
+                    <button class="btn btn-light mr-2" data-toggle="modal" data-target="#exampleModal">Nova
+                        Postagem</button>
                     <a class="btn btn-outline-light" href="#postagens">Ver Postagens</a>
                 </div>
             </div>
@@ -19,46 +22,47 @@
             <img src="https://i.imgur.com/9W4Mlnd.png" alt="" width="500px" height="500px">
 
         </div>
-   
+    </div>
+</div>
+
 <div class="container mb-5 mt-5" id="postagens">
     <nav>
         <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
-            <a class=" nav-item nav-link active" id="nav-todasPostagens" data-toggle="tab" href="#nav-todasPostagens"
+            <a class=" nav-item nav-link active" id="nav-todasPostagens-tab" data-toggle="tab" href="#todasPostagens"
                 role="tab" aria-controls="nav-todasPostagens" aria-selected="true">Todas Postagens</a>
-            <a class="nav-item nav-link" id="nav-minhasPostagens" data-toggle="tab" href="#nav-minhasPostagens"
+
+            <a class="nav-item nav-link" id="nav-minhasPostagens-tab" data-toggle="tab" href="#minhasPostagens"
                 role="tab" aria-controls="nav-minhasPostagens" aria-selected="false">Minhas Postagens</a>
-            <a class="nav-item nav-link" id="nav-temaPostagem" data-toggle="tab" href="#nav-temaPostagem" role="tab"
+
+            <a class="nav-item nav-link" id="nav-temaPostagem-tab" data-toggle="tab" href="#temaPostagem" role="tab"
                 aria-controls="nav-temaPostagem" aria-selected="false">Postagens por tema</a>
         </div>
     </nav>
 
     <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-todasPostagens" role="tabpanel"
-            aria-labelledby="nav-todasPostagens">Todas as postagens</div>
-        <div class="tab-pane fade" id="nav-minhasPostagens" role="tabpanel" aria-labelledby="nav-minhasPostagens">Minhas
+        <div class="tab-pane fade show active" id="todasPostagens" role="tabpanel"
+            aria-labelledby="nav-todasPostagens-tab">Todas as postagens</div>
+        <div class="tab-pane fade" id="minhasPostagens" role="tabpanel" aria-labelledby="nav-minhasPostagens">Minhas
             postagens</div>
-        <div class="tab-pane fade" id="nav-temaPostagem" role="tabpanel" aria-labelledby="nav-temaPostagem">Postagens
+        <div class="tab-pane fade" id="temaPostagem" role="tabpanel" aria-labelledby="nav-temaPostagem-tab">Postagens
             por tema</div>
     </div>
 
 
-
-
-    <!--Modal-->
-    <!--<div class="modal fade" id="novaPostagem" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Nova Postagem</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <div class="form-group">
-                        <label for="titulo">Título</label>
-                        <input type="text" class="form-control" id="titulo" placeholder="Digite o Titulo">
+                        <label for="titulo">Titulo</label>
+                        <input type="text" class="form-control" id="titulo" placeholder="Digite o titulo">
                     </div>
 
                     <div class="form-group">
@@ -67,11 +71,12 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="texto">Escolhe um tema ou <a href="">cadastre um novo</a></label>
-                       <select name="tema" id="tema" class="form-control">
-                           <option value="">Temas</option>
-                       </select>
+                        <label for="Tema">Escolha um tema ou <a href="">cadastre um novo</a></label>
+                        <select name="tema" id="tema" class="form-control">
+                            <option value="">Temas</option>
+                        </select>
                     </div>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
@@ -79,10 +84,4 @@
                 </div>
             </div>
         </div>
-    </div>!-->
-
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Launch demo modal
-  </button>
-  
+    </div>
