@@ -2,6 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment.prod';
+
 import { Tema } from '../model/Tema';
 
 @Injectable({
@@ -22,7 +23,20 @@ export class TemaService {
 
   }
 
+  getByIdTema(id:number):Observable<Tema>{
+    return this.http.get<Tema>(`https://blogpvsg.herokuapp.com/tema/${id}`, this.token)
+
+  }
+
   postTema(tema: Tema):Observable<Tema>{
     return this.http.post<Tema>('https://blogpvsg.herokuapp.com/tema', tema, this.token)
+  }
+
+  putTema(tema:Tema): Observable<Tema>{
+    return this.http.put<Tema>('https://blogpvsg.herokuapp.com/tema', tema, this.token)
+  }
+
+  deleteTema(id:number){
+    return this.http.delete(`https://blogpvsg.herokuapp.com/tema/${id}`,this.token)
   }
 }
