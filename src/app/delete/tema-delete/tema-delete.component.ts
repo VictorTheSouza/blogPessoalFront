@@ -21,17 +21,17 @@ export class TemaDeleteComponent implements OnInit {
 
   ) { }
 
-  ngOnInit(): void {
+  ngOnInit(){
     if (environment.token ==''){
       this.router.navigate(['/entrar'])
     }
 
-    this.idTema = this.route.snapshot.params['id']
+    this.idTema= this.route.snapshot.params['id']
     this.findByIdTema(this.idTema)
   }
 
   findByIdTema(id:number){
-    this.temaService.getByIdTema(this.idTema).subscribe((resp:Tema)=>{
+    this.temaService.getByIdTema(id).subscribe((resp:Tema)=>{
       this.tema=resp
     })
   }
