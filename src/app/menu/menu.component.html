@@ -12,7 +12,8 @@
           <p class="m-0 font-weight-bold text-white fs-16">Olá {{nome}}</p>
         </li>
         <li class="nav-item pl-3">
-        <p class="m-0"><i class="fa fa-pencil-square-o text-white fs-16" aria-hidden="true"></i></p>
+          <a [routerLink]="['/user-edit', id]">
+        <p class="m-0"><i class="fa fa-pencil-square-o text-white fs-16" aria-hidden="true"></i></p></a>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto d-flex align-items-center">

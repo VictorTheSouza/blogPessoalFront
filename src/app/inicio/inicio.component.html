@@ -70,7 +70,9 @@
                       <small class="text-muted">Tema: {{item.tema.descricao}}</small>
                       <p class="card-text">{{item.texto}}</p>
                       <small>{{item.date | date: 'dd/MM/yyyy'}} as {{item.date | date: 'HH:mm'}}</small>
-                      <p class="card-text"><small class="text-muted">by: {{item.usuario.nome}}</small></p>
+
+                      <a [routerLink]="['/postagem-edit', item.id]" class="text-info ml-2 mr-2" href="">Editar</a>
+                    <a [routerLink]="['/postagem-delete', item.id]" class="text-danger" href="">Apagar</a>
                     </div>
                   </div>
             </div>
@@ -85,7 +87,6 @@
                 <div class="card text-center" *ngFor='let item of tema.postagem'>
                     <div class="card-body">
                       <h5 class="card-title">{{item.titulo}}</h5>
-                      <small class="text-muted">Tema: {{item.tema.descricao}}</small>
                       <p class="card-text">{{item.texto}}</p>
                       <small>{{item.date | date: 'dd/MM/yyyy'}} as {{item.date | date: 'HH:mm'}}</small>
                       <p class="card-text"><small class="text-muted">by: {{item.usuario.nome}}</small></p>
