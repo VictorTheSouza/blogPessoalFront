@@ -52,7 +52,7 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                         </a>
                         <ul class="links collapse " ${ isNormalMode ? 'id="modules-links"' : 'id="xs-modules-links"' }>
                             <li class="link">
-                                <a href="modules/AppModule.html" data-type="entity-link" >AppModule</a>
+                                <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
                                     <li class="chapter inner">
                                         <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
                                             'data-target="#components-links-module-AppModule-cfd46769087f32d4cf5762cbf8cf9f4f"' : 'data-target="#xs-components-links-module-AppModule-cfd46769087f32d4cf5762cbf8cf9f4f"' }>
@@ -63,49 +63,62 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                         <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-AppModule-cfd46769087f32d4cf5762cbf8cf9f4f"' :
                                             'id="xs-components-links-module-AppModule-cfd46769087f32d4cf5762cbf8cf9f4f"' }>
                                             <li class="link">
-                                                <a href="components/AlertasComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >AlertasComponent</a>
+                                                <a href="components/AlertasComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">AlertasComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/AppComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >AppComponent</a>
+                                                <a href="components/AppComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/CadastrarComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >CadastrarComponent</a>
+                                                <a href="components/CadastrarComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">CadastrarComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/EntrarComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >EntrarComponent</a>
+                                                <a href="components/EntrarComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">EntrarComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/InicioComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >InicioComponent</a>
+                                                <a href="components/InicioComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">InicioComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/MenuComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >MenuComponent</a>
+                                                <a href="components/MenuComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">MenuComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/PostagemDeleteComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >PostagemDeleteComponent</a>
+                                                <a href="components/PostagemDeleteComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">PostagemDeleteComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/PostagemEditComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >PostagemEditComponent</a>
+                                                <a href="components/PostagemEditComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">PostagemEditComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/RodapeComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >RodapeComponent</a>
+                                                <a href="components/RodapeComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">RodapeComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/TemaComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >TemaComponent</a>
+                                                <a href="components/TemaComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">TemaComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/TemaDeleteComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >TemaDeleteComponent</a>
+                                                <a href="components/TemaDeleteComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">TemaDeleteComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/TemaEditComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >TemaEditComponent</a>
+                                                <a href="components/TemaEditComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">TemaEditComponent</a>
                                             </li>
                                             <li class="link">
-                                                <a href="components/UserEditComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >UserEditComponent</a>
+                                                <a href="components/UserEditComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">UserEditComponent</a>
                                             </li>
                                         </ul>
                                     </li>
                             </li>
                             <li class="link">
-                                <a href="modules/AppRoutingModule.html" data-type="entity-link" >AppRoutingModule</a>
+                                <a href="modules/AppRoutingModule.html" data-type="entity-link">AppRoutingModule</a>
                             </li>
                 </ul>
                 </li>
@@ -118,16 +131,19 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                         </div>
                         <ul class="links collapse " ${ isNormalMode ? 'id="classes-links"' : 'id="xs-classes-links"' }>
                             <li class="link">
-                                <a href="classes/Postagem.html" data-type="entity-link" >Postagem</a>
+                                <a href="classes/AppPage.html" data-type="entity-link">AppPage</a>
                             </li>
                             <li class="link">
-                                <a href="classes/Tema.html" data-type="entity-link" >Tema</a>
+                                <a href="classes/Postagem.html" data-type="entity-link">Postagem</a>
                             </li>
                             <li class="link">
-                                <a href="classes/User.html" data-type="entity-link" >User</a>
+                                <a href="classes/Tema.html" data-type="entity-link">Tema</a>
                             </li>
                             <li class="link">
-                                <a href="classes/UserLogin.html" data-type="entity-link" >UserLogin</a>
+                                <a href="classes/User.html" data-type="entity-link">User</a>
+                            </li>
+                            <li class="link">
+                                <a href="classes/UserLogin.html" data-type="entity-link">UserLogin</a>
                             </li>
                         </ul>
                     </li>
@@ -140,16 +156,16 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                             </div>
                             <ul class="links collapse " ${ isNormalMode ? 'id="injectables-links"' : 'id="xs-injectables-links"' }>
                                 <li class="link">
-                                    <a href="injectables/AlertasService.html" data-type="entity-link" >AlertasService</a>
+                                    <a href="injectables/AlertasService.html" data-type="entity-link">AlertasService</a>
                                 </li>
                                 <li class="link">
-                                    <a href="injectables/AuthService.html" data-type="entity-link" >AuthService</a>
+                                    <a href="injectables/AuthService.html" data-type="entity-link">AuthService</a>
                                 </li>
                                 <li class="link">
-                                    <a href="injectables/PostagemService.html" data-type="entity-link" >PostagemService</a>
+                                    <a href="injectables/PostagemService.html" data-type="entity-link">PostagemService</a>
                                 </li>
                                 <li class="link">
-                                    <a href="injectables/TemaService.html" data-type="entity-link" >TemaService</a>
+                                    <a href="injectables/TemaService.html" data-type="entity-link">TemaService</a>
                                 </li>
                             </ul>
                         </li>

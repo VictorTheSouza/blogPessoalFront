@@ -8,8 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-	   <link rel="stylesheet" href="../styles/style.css">
-        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+	      <link rel="stylesheet" href="../styles/style.css">
     </head>
     <body>
 
@@ -39,7 +38,7 @@
 
 <ol class="breadcrumb">
   <li>Injectables</li>
-  <li >AuthService</li>
+  <li>AuthService</li>
 </ol>
 
 <ul class="nav nav-tabs" role="tablist">
@@ -63,7 +62,6 @@
 
 
 
-
             <section>
     <h3 id="index">Index</h3>
     <table class="table table-sm table-bordered index-table">
@@ -78,16 +76,16 @@
                     <td class="col-md-4">
                         <ul class="index-list">
                             <li>
-                                <a href="#cadastrar" >cadastrar</a>
+                                <a href="#cadastrar">cadastrar</a>
                             </li>
                             <li>
-                                <a href="#entrar" >entrar</a>
+                                <a href="#entrar">entrar</a>
                             </li>
                             <li>
-                                <a href="#getByIdUser" >getByIdUser</a>
+                                <a href="#getByIdUser">getByIdUser</a>
                             </li>
                             <li>
-                                <a href="#logado" >logado</a>
+                                <a href="#logado">logado</a>
                             </li>
                         </ul>
                     </td>
@@ -161,14 +159,16 @@
                 <td class="col-md-4">
                     <a name="cadastrar"></a>
                     <span class="name">
-                        <span ><b>cadastrar</b></span>
+                        <b>
+                            cadastrar
+                        </b>
                         <a href="#cadastrar"><span class="icon ion-ios-link"></span></a>
                     </span>
                 </td>
             </tr>
             <tr>
                 <td class="col-md-4">
-<code>cadastrar(user: <a href="../classes/User.html" target="_self">User</a>)</code>
+<code>cadastrar(user: <a href="../classes/User.html">User</a>)</code>
                 </td>
             </tr>
 
@@ -229,14 +229,16 @@
                 <td class="col-md-4">
                     <a name="entrar"></a>
                     <span class="name">
-                        <span ><b>entrar</b></span>
+                        <b>
+                            entrar
+                        </b>
                         <a href="#entrar"><span class="icon ion-ios-link"></span></a>
                     </span>
                 </td>
             </tr>
             <tr>
                 <td class="col-md-4">
-<code>entrar(userLogin: <a href="../classes/UserLogin.html" target="_self">UserLogin</a>)</code>
+<code>entrar(userLogin: <a href="../classes/UserLogin.html">UserLogin</a>)</code>
                 </td>
             </tr>
 
@@ -297,7 +299,9 @@
                 <td class="col-md-4">
                     <a name="getByIdUser"></a>
                     <span class="name">
-                        <span ><b>getByIdUser</b></span>
+                        <b>
+                            getByIdUser
+                        </b>
                         <a href="#getByIdUser"><span class="icon ion-ios-link"></span></a>
                     </span>
                 </td>
@@ -365,7 +369,9 @@
                 <td class="col-md-4">
                     <a name="logado"></a>
                     <span class="name">
-                        <span ><b>logado</b></span>
+                        <b>
+                            logado
+                        </b>
                         <a href="#logado"><span class="icon ion-ios-link"></span></a>
                     </span>
                 </td>
@@ -481,9 +487,9 @@ export class AuthService {
 
        <script src="../js/libs/custom-elements.min.js"></script>
        <script src="../js/libs/lit-html.js"></script>
-       
-       <script type="module" src="../js/menu-wc.js" defer></script>
-       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
 
        <script src="../js/libs/bootstrap-native.js"></script>
 
